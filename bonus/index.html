@@ -4,16 +4,75 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./assets/css/style.css"> 
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+			integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="./assets/css/style.css" />
 		<title>Vue Hello</title>
 	</head>
 	<body>
-		<!-- vuejs -->
-		<div id="root">
-			<h1 :class="classeTitolo">{{message}}</h1>
-			<img :src="image" alt="immagine del logo Vue.js" />
-		</div>
-		<!-- /vuejs -->
+		<!-- #site_main -->
+		<main id="site_main">
+			<!-- vuejs -->
+			<div id="root">
+				<h1 :class="classeTitolo">{{message}}</h1>
+				<img :src="image" alt="immagine del logo Vue.js" />
+			</div>
+			<!-- /vuejs -->
+			<!-- #link -->
+			<div class="container_up">
+				<h2>The Progressive JavaScript Framework</h2>
+			</div>
+			<div class="container d_flex">
+				<div id="link">
+					<h2>Link</h2>
+					<ul>
+						<li>
+							<a href="https://vuejs.org/">Documentazione ufficiale</a>
+						</li>
+						<li>
+							<a href="https://github.com/yyx990803/"
+								>Account GitHub del Creatore di Vue.js</a
+							>
+						</li>
+						<li>
+							<a href="https://github.com/vuejs"
+								>Account GitHub del progetto Vue.js</a
+							>
+						</li>
+					</ul>
+				</div>
+				<div id="link_button">
+					<a href="https://vuejs.org/v2/guide/"><button>GET STARTED</button></a>
+				</div>
+			</div>
+			<!-- /#link -->
+		</main>
+		<!-- /#site_main -->
+
+		<!-- #site_footer -->
+		<footer id="site_footer">
+			<div id="social">
+				<a href="https://github.com/vuejs/vue">
+					<i class="fab fa-github"></i>
+				</a>
+				<a href="https://twitter.com/vuejs"><i class="fab fa-twitter"></i></a>
+				<a href="https://medium.com/the-vue-point"
+					><i class="fab fa-medium-m"></i
+				></a>
+			</div>
+			<div>
+				<h3>Released under the MIT License</h3>
+				<h3>Copyright © 2014-2021 Evan You</h3>
+			</div>
+			<div id="powered">
+				<p>Powered by <a href="https://github.com/Marcoseven">Marcoseven</a> </p>
+		</footer>
+		<!-- /#site_footer -->
 
 		<!-- script_vue_javascript -->
 		<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
