@@ -1,9 +1,26 @@
+/* common_general_rules */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
+body {
+	background-color: #a9c7e1d6;
+}
+/* /common_general_rules */
+
+/* utility */
+.d_flex {
+	display: flex;
+}
+/* /utility */
+
+/********** 
+MAIN
+**********/
+
+/* vuejs */
 h1 {
 	text-align: center;
 	margin: 0.5rem 0;
@@ -14,3 +31,78 @@ img {
 	margin: 0 auto;
 	text-align: center;
 }
+/* /vuejs */
+
+#site_main a {
+	font-size: 20px;
+}
+
+.container_up {
+	text-align: center;
+	font-size: 30px;
+}
+
+/* .container */
+.container {
+	justify-content: space-evenly;
+	margin: 1rem 0;
+}
+
+#link {
+	margin: 1rem;
+}
+
+#link a {
+	text-decoration: none;
+	color: #000;
+}
+
+button {
+	padding: 1rem;
+	background-color: #fff;
+	border-radius: 50px;
+	border: 0px #42b983;
+	color: #42b983;
+}
+
+#link_button button:hover {
+	cursor: pointer;
+}
+/* /.container */
+
+/********** 
+/MAIN
+**********/
+
+/********** 
+/FOOTER
+**********/
+#site_footer {
+	height: auto;
+	width: 100%;
+	background-color: #414b5c;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 1rem 0;
+	color: #000;
+}
+
+#social {
+	font-size: 25px;
+}
+
+#social i {
+	margin: 0 0.3rem;
+	color: #000;
+}
+
+#powered a {
+	text-decoration: none;
+	color: #000;
+}
+
+/********** 
+/FOOTER
+**********/
